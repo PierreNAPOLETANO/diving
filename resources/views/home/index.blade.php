@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Protfolio plongeur - Page d'accueil</title>
-    </head>
-    <body>
-        
-    </body>
-</html>
+@extends('index')
+ 
+@section('title', "Page d'accueil")
+ 
+@section('content')
+    <p>This is my body content.</p>
+@stop
